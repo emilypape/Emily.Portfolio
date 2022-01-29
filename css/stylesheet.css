@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1e9da;
+    font-family: Helvetica, Arial, sans-serif;
+ }
+/*header and nav bar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c5f6b;
+    padding: 35px 35px;
+}
+
+header h1 { 
+    background-color: #f2f5f8;
+    border-radius: 50%;
+    color: #4c5f6b;
+    -webkit-text-stroke: 1px black;
+}
+
+header ul li {
+    display: inline;
+    list-style: none;
+    padding: 65px;
+    font-size: x-large;
+    
+}
+
+/*header and nav bar*/
