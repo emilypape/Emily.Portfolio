@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #f1e9da;
+    background-color: #f2f5f8;
     font-family: 'Source Serif 4', sans-serif;
     width: 100%;
  }
@@ -83,17 +83,30 @@ footer {
 
 .hero {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    margin: 50px 150px;
 }
 
 .developer-name {
     color: #4c5f6b;
-    font-size: 55pt;
+    font-size: 48pt;
+    text-align: center;
+    border-bottom: 5px solid #bd8c31;
+    margin: 50px 90px 50px 90px;
 }
 
 .profile-pic {
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 50px 50px 50px 50px;
 }
+
+.developer-bio {
+    color: #4c5f6b;
+    margin: 125px 50px 150px 50px;
+    text-align: center;
+    font-size: 14pt;
+}
+/*end hero section*/
+
