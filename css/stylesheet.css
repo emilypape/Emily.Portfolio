@@ -110,3 +110,43 @@ footer {
 }
 /*end hero section*/
 
+.work-title {
+    display: flex;
+    background-color: #4c5f6b;
+    border-bottom: 5px solid #f2f5f8;
+    color: #f2f5f8;
+    font-size: 20pt;
+}
+
+.work-samples {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #4c5f6b;
+    border-top: 10px solid #bd8c31;
+    margin: 0 0 50px 0;
+}
+
+.working-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.progress-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 0 250px;
+}
+
+.runbuddy-image {
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.runbuddy-image:hover {
+    opacity: 0.70;
+}
+
