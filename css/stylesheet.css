@@ -110,6 +110,8 @@ footer {
 }
 /*end hero section*/
 
+/*start main work section*/
+
 .work-title {
     display: flex;
     background-color: #4c5f6b;
@@ -136,20 +138,36 @@ footer {
     height: 170px;
     width: 290px;
     border-radius: 10px;
-    margin: 0 180px;
+    margin: 0px 180px;
 }
 
-.calculator-text {
-    position: absolute;
-    left: 165px;
-    top: 1000px;
+.progress-title1 {
+    position: relative;
+    left: 180px;
+    top: -100px;
+    color: #f2f5f8;
+    background-color: #bd8c31;
+    width: 44.6%;
+    text-align: center;
+    font-size: 14pt;
+    border-bottom: 5px solid #f2f5f8;
 }
-
+.progress-title2 {
+    position: relative;
+    left: 180px;
+    top: -100px;
+    color: #f2f5f8;
+    background-color: #bd8c31;
+    width: 44.6%;
+    text-align: center;
+    font-size: 14pt;
+    border-bottom: 5px solid #f2f5f8;
+}
 .runbuddy-image {
     height: 400px;
     width: 800px;
     border-radius: 10px;
-    margin: 38px 15px 0 0;
+    margin: 19px 65px 0 0;
 }
 
 .runbuddy-image:hover {
@@ -162,8 +180,8 @@ footer {
     left: -.10rem;
     background-color: #bd8c31;
     color: #f2f5f8;
-    margin: 10px 700px 0 2px ;
     border-bottom: 5px solid #f2f5f8;
+    margin: 10px 700px 0 2px ;
     text-align: center;
     font-size: 14pt;
 }
