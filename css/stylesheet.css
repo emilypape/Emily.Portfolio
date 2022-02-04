@@ -92,19 +92,19 @@ footer {
     font-size: 48pt;
     text-align: center;
     border-bottom: 5px solid #bd8c31;
-    margin: 50px 90px 50px 90px;
+    margin: .6em 1em;
 }
 
 .profile-pic {
     height: 500px;
     width: 300px;
     border-radius: 10px;
-    margin: 50px 50px 50px 50px;
+    margin: 3em 1em ;
 }
 
 .developer-bio {
     color: #4c5f6b;
-    margin: 125px 50px 150px 50px;
+    margin: 8em 5em;
     text-align: center;
     font-size: 14pt;
 }
@@ -186,5 +186,68 @@ footer {
     font-size: 14pt;
 }
 
+/*Start media queries for smaller desktop screens and smaller*/
+
+@media screen and (max-width: 980px) {
+    .profile-pic {
+        margin: 3em 3em 3em 0;
+    }
+   
+    .developer-bio {
+        margin: 50px 50px;
+    }    
+
+    .work-samples {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .runbuddy-image {
+        margin: 19px 0px 0px 0px;
+    }
+
+    .working-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .progress-pic {
+        margin: 0px 50px;
+    }
+    
+    .progress-title1 {
+        width: 74.4%;
+        left: 50px;
+    }
+
+    .progress-title2 {
+        width: 74.4%;
+        left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .developer-bio {
+        margin: 1em 2em 1em 2em;
+    }
+
+    .runbuddy-image {
+        width: 95%;
+        height: 95%;
+        margin: 20px;
+    }
+
+    .runbuddy-label {
+        top: -7rem;
+        left: 1.25rem;
+        margin: 30px 650px 0 0;
+    }
+
+
+
+}
 
 
